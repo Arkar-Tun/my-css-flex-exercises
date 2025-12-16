@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/cherry-of-my-own.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  h1 {
+    font-size: 48px;
+    color: azure;
+    background-color: rgb(155, 155, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+    flex: 1;
+    .link {
+      padding: 5rem;
+      background-color: rgba(100, 150, 200, 0.15);
+      width: 300px;
+      height: 200px;
+      border-radius: 10px;
+      backdrop-filter: blur(3px);
+      a {
+        text-decoration: none;
+        color: rgb(125, 56, 167);
+        font-size: 18px;
+      }
+    }
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      padding: 1rem;
+      color: aliceblue;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    .footer-image {
+      display: flex;
+      gap: 1rem;
+      padding: 1rem;
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+}
